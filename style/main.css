@@ -23,9 +23,10 @@
 .esquerda{
     color: var(--cyan);
     padding: 1.5rem;
+    background-color: var(--cyan);
 }
 
-.esquerda p:nth-of-type(1){
+.esquerda div p:nth-of-type(1){
     color: #fff;
     font-size: 2rem;
     font-weight: 700;
@@ -39,7 +40,40 @@
 
 .esqueda div{
     display: flex;
-    margin:0.75rem;
     align-items: center;
     margin-bottom: 0.25rem;
 }
+
+.esquerda>p{
+    color: #fff;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda button{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    color: #fff;
+    line-height: 1.125rem;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--bright-yellow);
+    border-radius: 0.3125rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+
+.direita{
+    background-color: var(--light-cyan);
+    padding: 1.5rem;
+    border-bottom-left-radius: 0.3125rem;
+    border-bottom-right-radius: 0.3125rem;
+}
+
+.direita p{
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: #fff;
+    opacity: 0.75;
+}
+
